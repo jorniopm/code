@@ -1,0 +1,5 @@
+E:/project/code/01/cpl_work/cmake-build-debug/CMakeFiles/ex_01.dir
+E:/project/code/01/cpl_work/cmake-build-debug/CMakeFiles/ex_02.dir
+E:/project/code/01/cpl_work/cmake-build-debug/CMakeFiles/ex_03.dir
+E:/project/code/01/cpl_work/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/project/code/01/cpl_work/cmake-build-debug/CMakeFiles/rebuild_cache.dir

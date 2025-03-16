@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpl_work",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_01-Debug-c1559f73fd4e35de7702.json",
+					"name" : "ex_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_02-Debug-03edabdd48c67f8bf5a5.json",
+					"name" : "ex_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_03-Debug-a8219336488abc425fb4.json",
+					"name" : "ex_03",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/project/code/01/cpl_work/cmake-build-debug",
+		"source" : "E:/project/code/01/cpl_work"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
