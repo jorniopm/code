@@ -139,6 +139,39 @@ build ex_03.exe: C_EXECUTABLE_LINKER__ex_03_Debug CMakeFiles/ex_03.dir/ex_03.c.o
   TARGET_IMPLIB = libex_03.dll.a
   TARGET_PDB = ex_03.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex_04
+
+
+#############################################
+# Order-only phony target for ex_04
+
+build cmake_object_order_depends_target_ex_04: phony || .
+
+build CMakeFiles/ex_04.dir/ex_04.c.obj: C_COMPILER__ex_04_unscanned_Debug E$:/project/code/01/cpl_work/ex_04.c || cmake_object_order_depends_target_ex_04
+  DEP_FILE = CMakeFiles\ex_04.dir\ex_04.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex_04.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex_04.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex_04
+
+
+#############################################
+# Link the executable ex_04.exe
+
+build ex_04.exe: C_EXECUTABLE_LINKER__ex_04_Debug CMakeFiles/ex_04.dir/ex_04.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex_04.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex_04.exe
+  TARGET_IMPLIB = libex_04.dll.a
+  TARGET_PDB = ex_04.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build ex_02: phony ex_02.exe
 
 build ex_03: phony ex_03.exe
 
+build ex_04: phony ex_04.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build ex_03: phony ex_03.exe
 #############################################
 # Folder: E:/project/code/01/cpl_work/cmake-build-debug
 
-build all: phony ex_01.exe ex_02.exe ex_03.exe
+build all: phony ex_01.exe ex_02.exe ex_03.exe ex_04.exe
 
 # =============================================================================
 # Built-in targets
